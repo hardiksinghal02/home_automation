@@ -42,7 +42,7 @@ def get_gemini_response(prompt):
 
 
 if __name__ == '__main__':
-    app.run(debug=True)
+    app.run(debug=True, port=8502)
 
 # if __name__ == "__main__":
 #     while True:
